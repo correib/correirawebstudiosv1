@@ -19,6 +19,38 @@ div.header-row {
     background-size: cover;
     background-repeat: no-repeat;
     height: 750px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+#header-col {
+    margin-top: 100px;
+}
+
+#intro-row {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 70%;
+}
+
+h1 {
+    color: #c4f4f4;
+}
+
+#current-roles-row {
+    margin-top: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 70%;
+}
+
+#current-roles-col {
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+#current-roles-info {
+    background-color: rgba(0, 0, 0, 0.05);
+    max-width: 75%;
 }
 
 .splitter {
@@ -31,15 +63,12 @@ hr {
     color: #83bdbd;
 }
 
-#resume-dl {
+.resume {
+    color: #c4f4f4;
+    margin: 5px;
     max-width: 30%;
 }
 
 #roles-table {
     color: #83bdbd;
 }
-
-h1, h3 {
-    color: #6D9886;
-}
-

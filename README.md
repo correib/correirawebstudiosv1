@@ -8,9 +8,10 @@ This project is designed as a one page personal website for introduction, experi
 resume/skill information, and contact details. Will be continuously rounding out the edges as time permits.
 
 # 01/05/23 Update
-Moving on to adding more intermediate CSS concepts to improve the UI.
+Moving on to adding more CSS concepts to improve the UI.
 
-# 02/02/23 Update
-Looking to further improve the UI (adding some bootstrap components),
-and make jumping through the page possible. Including custom icon and 
-personal photo now as well.
+# 02/02/23-02/06/23 Update
+Looking to further improve the UI (adding some bootstrap components). 
+Including custom icon and personal photo now as well. Still need to 
+add mobile responsiveness and finish adding more personal information.
+Also need to update my resume for 2023.

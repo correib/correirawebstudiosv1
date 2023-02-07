@@ -9,87 +9,110 @@
 </head>
 <body>
     <div class="container" id="body-container">
-        <div class="header-row row text-center">
-            <h2 class="name-title">Hey! I'm Ben.</h2>
-            <h4 class="about-title">Aspiring software developer, and operations management champion!</h4>
+        <div class="header-row row">
+            <div class="col" id="header-col">
+                <div class="row justify-content-center text-center" id="intro-row">
+                    <h1 class="display-6">Hey! I'm Ben.</h1>
+                    <p class="about-title fs-5">Aspiring software developer, and operations management champion!</p>
+                </div>
+                <div class="row justify-content-center" id="current-roles-row">
+                    <div class="col text-center" id="self-picture">
+                        <!-- picture here -->
+                        <img src="img/headshot.png" class="img-fluid rounded-5" alt="Benjamin Correira's headshot photo." id="headshot-photo" width="150" height="250">
+                    </div>
+                    <div class="col text-center" id="current-roles-info">
+                        <!-- current roles here -->
+                        <div class="row">
+                            <p class="fs-6">
+                                Founder and CEO<br>
+                                Wizard Media Solutions, LLC
+                            </p><br>
+                            <p class="fs-6">
+                                Technical Support Engineer III<br>
+                                <a href="https://www.linkedin.com/company/amazon-global-ops-robotics" target="_blank">Amazon Global Robotics</a>
+                            </p>
+                            <p class="fs-6">
+                                Amazon Robotics - BOS12<br>
+                                300 Riverpark Dr<br>
+                                North Reading, MA, 01864
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="row justify-content-center text-center">
             <div class="col">
-                <div class="row align-self-center splitter">
-                    <hr class="border border-2">
-                </div>
-                <div class="row">
-                    <!-- picture here -->
-                    <div class="col">
-                        #
-                    </div>
-                    <!-- current roles here -->
-                    <div class="col">
-                        #
-                    </div>
-                </div>
                 <div class="row splitter">
                     <hr class="border border-2">
                 </div>
-                <div class="row justify-content-center">
-                    <!-- resume download link-->
-                    <a class="btn btn-outline-light" href="#" id="resume-dl" role="button" target="_blank">Download Resume PDF</a>
-                    <!-- roles and experience summary table-->
-                    <table class="table table-borderless" id="roles-table">
-                        <thead>
-                            <td>Company/Timeframe</td>
-                            <td>Experience Summary</td>
-                            <td>Main Skills</td>
-                        </thead>
-                        <tr>
-                            <td>
-                                Amazon Global Robotics
-                                November 2022 - Present
-                            </td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>
-                                Wizard Media Solutions, LLC
-                                August 2022 - Present
-                            </td>
-                            <td></td>
-                            <td>Entrepreneurial</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                Amazon Logistics
-                                April 2020-October 2022
-                            </td>
-                            <td></td>
-                            <td>Warehousing Operations, Logistics, Management, Sustainability</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                Amazon Fulfillment
-                                September 2017-April 2020
-                            </td>
-                            <td></td>
-                            <td>Warehousing Operations, Robotics Interaction, Management</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                Sears
-                                October 2016-September 2017
-                            </td>
-                            <td></td>
-                            <td>Customer Experience, Management</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                Twitch
-                                June 2015-September 2017
-                            </td>
-                            <td></td>
-                            <td>Entrepreneurial</td>
-                        </tr>
-                    </table>
+                <div class="row">
+                    <div class="col">
+                        <div class="row justify-content-center">
+                            <!-- resume view link (pdf)-->
+                            <a class="btn btn-outline-light resume" href="https://correirawebstudios.s3.amazonaws.com/BenjaminCorreira+2022.pdf" role="button" target="_blank">View Resume PDF</a>
+                            <!-- resume download link (docx)-->
+                            <a class="btn btn-outline-light resume" href="https://correirawebstudios.s3.amazonaws.com/Benjamin+Correira+2022.docx" role="button" target="_blank">Download Resume DOCX</a>
+                        </div>
+                        <div class="row justify-content-center">
+                            <!-- roles and experience summary table-->
+                            <table class="table table-borderless" id="roles-table">
+                                <thead>
+                                    <td>Company/Timeframe</td>
+                                    <td>Experience Summary</td>
+                                    <td>Main Skills</td>
+                                </thead>
+                                <tr>
+                                    <td>
+                                        Amazon Global Robotics
+                                        November 2022 - Present
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Wizard Media Solutions, LLC
+                                        August 2022 - Present
+                                    </td>
+                                    <td></td>
+                                    <td>Entrepreneurial</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Amazon Logistics
+                                        April 2020-October 2022
+                                    </td>
+                                    <td></td>
+                                    <td>Warehousing Operations, Logistics, Management, Sustainability</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Amazon Fulfillment
+                                        September 2017-April 2020
+                                    </td>
+                                    <td></td>
+                                    <td>Warehousing Operations, Robotics Interaction, Management</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Sears
+                                        October 2016-September 2017
+                                    </td>
+                                    <td></td>
+                                    <td>Customer Experience, Management</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Twitch
+                                        June 2015-September 2017
+                                    </td>
+                                    <td></td>
+                                    <td>Entrepreneurial</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
                 </div>
                 <div class="row align-self-center splitter">
                     <hr class="border border-2">
@@ -157,19 +180,6 @@
                 </div>
                 <div class="row">
                     <!-- contact information -->
-                    <table cellspacing="10%">
-                        <tr>
-                            <td>photo</td>
-                            <td>
-                                <h1>Benjamin Correira</h1>
-                                <p><em>Founder and CEO, Wizard Media Solutions, LLC</em></p>
-                                <p><em>Technical Support Engineer<br>
-                                <a href="https://www.linkedin.com/company/amazon-global-ops-robotics" target="_blank">Amazon Global Robotics</a>, Amazon.com, Inc<br>
-                                    Amazon Robotics - BOS12<br>
-                                    North Reading, MA 01864</em></p>
-                            </td>
-                        </tr>
-                    </table>
                 </div>
             </div>
         </div>
