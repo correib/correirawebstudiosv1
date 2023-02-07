@@ -1,5 +1,5 @@
 # correirawebstudiosv1
-Currently hosted on: https://www.correirawebstudios.com/
+Currently hosted on: http://correirawebstudios.com/
 
 Web development project, public facing personal website. Most of my time and effort goes into
 the work that I do for my employers as I enjoy building for customers, but I need to have something
@@ -18,4 +18,4 @@ Including custom icon and personal photo now as well. Still need to
 add mobile responsiveness and finish adding more personal information.
 Also need to update my resume for 2023. Added s3 website hosting and code
 pipeline for automated deployments on github changes. Added route 53 
-domain name records.
+domain name records. Need to get https requests working.
