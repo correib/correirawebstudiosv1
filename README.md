@@ -1,5 +1,5 @@
 # correirawebstudiosv1
-Currently hosted on: https://correib.github.io/correirawebstudiosv1/ prior to moving to dedicated domain name.
+Currently hosted on: https://www.correirawebstudios.com/
 Web development project, public facing personal website. Most of my time and effort goes into
 the work that I do for my employers as I enjoy building for customers, but I need to have something
 for myself!
